@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #88c2e9;
+    margin: 0;
+    border: 30px solid #09005c;
+}
+
+.container {
+    text-align: center;
+    background: #e3eaf0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 26, 51, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px dotted #ff9010;
+    border-radius: 10px;
+}
+
+#pergunta-cont {
+    margin-bottom: 20px;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
