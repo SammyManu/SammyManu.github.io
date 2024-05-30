@@ -1,0 +1,140 @@
+@font-face {
+    font-family: SVFONT;
+    src: local("Stardew Valley Regular");
+}
+
+@font-face {
+    font-family: SVTITULO;
+    src: local("Stardew Valley All Caps Regular.ttf");
+}
+body {
+    margin: 0;
+    min-width: 250px;
+    background-color: #59C9F1;
+    font-family: SVFONT;
+    font-size: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 40px;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: #151152;
+    color: #59C9F1;
+    text-decoration: line-through;
+}
+
+select {
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-family: SVFONT;
+    font-size: 26px;
+    float: left;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #DDA059;
+    color: #6B3710;
+}
+
+.header {
+    background-color: #DDA059;
+    padding: 30px 40px;
+    color: #6B3710;
+    text-align: left;
+    font-size: 50px;
+    font-family: SVFONT;
+
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type="text"] {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 70%;
+    padding: 10px;
+    float: left;
+    font-size: 24px;
+    font-family: SVFONT;
+}
+
+.addBtn {
+    padding: 5px;
+    width: 15%;
+    background: #FFD921;
+    color: #6B3710;
+    float: left;
+    text-align: center;
+    font-size: 33px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    font-family: SVFONT;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #B52121;
+    color: #ffffff;
+    border: 3px solid #4e0a0a;
+    border-radius: 12px;
+    font-family: SVFONT;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float: right;
+}
+
+button:hover {
+    background-color: #4e0a0a;
+    border-color: #4e0a0a;
+}
+
+button:active {
+    background-color: #0e7720;
+    border-color: #31a114;
+    transform: scale(0.98);
+}

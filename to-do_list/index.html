@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    
+<div class="header">
+    <h2 class="titulo">Lista de tarefas</h2>
+    <input type="text" id="tarefa" placeholder="Informe a tarefa">
+    <span onclick="addElemento()" class="addBtn">Incluir</span>
+    <select id="categoria">
+        <option value="Plantacoes">Plantacoes</option>
+        <option value="Animais">Animais</option>
+        <option value="NPCs">NPCs</option>
+        <option value="Missoes">Missoes</option>
+    </select>
+    <button onclick="limparLista()">Limpar Lista</button>
+</div>
+<ul id="itemLista">
+    <li>Aguar as plantacoes</li>
+    <li>Encher a tigela de agua</li>
+    <li>Comprar sementes</li>
+</ul>
+<script src="script.js"></script>
+</body>
+</html>
